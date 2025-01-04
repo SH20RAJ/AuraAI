@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AuraAI Keyboard",
-    "slug": "auraai",
+    "slug": "auraai-keyboard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,13 +31,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-dev-client"
-    ],
     "extra": {
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "auraai-keyboard"
       }
-    }
+    },
+    "owner": "sh20raj"
   }
 }
